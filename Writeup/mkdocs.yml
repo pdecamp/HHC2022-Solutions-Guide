@@ -1,0 +1,69 @@
+site_name: 2022 SANS Holiday Hack Challenge Solutions Guide
+site_url: https://pdecamp.github.io/HHC2022-Solutions-Guide/
+site_author: "Paul DeCamp (KringleCon Attendee: Nutmeg)"
+
+theme:
+    name: material
+    palette:
+        scheme: slate
+        primary: green
+        accent: red
+    features:
+        - content.tabs.link
+        - navigation.indexes
+
+
+markdown_extensions:
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - attr_list
+    - admonition
+    - pymdownx.details        
+    - pymdownx.superfences
+    - tables
+    - pymdownx.keys
+    - pymdownx.tabbed:
+        alternate_style: true
+    - def_list
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+
+nav:
+    - Welcome: index.md
+    - Quests:
+        - KringleCon Orientation: 
+            - quests/KringleCon_Orientation/index.md
+        - Recover the Tolkien Ring:
+            - quests/Recover_the_Tolkien_Ring/index.md
+            - Wireshark Practice: quests/Recover_the_Tolkien_Ring/02_Wireshark_Practice.md
+            - Windows Event Logs: quests/Recover_the_Tolkien_Ring/03_Windows_Event_Logs.md
+            - Suricata Regatta: quests/Recover_the_Tolkien_Ring/04_Suricata_Regatta.md
+        - Recover the Elfen Ring:
+            - quests/Recover_the_Elfen_Ring/index.md
+            - Clone with a Difference: quests/Recover_the_Elfen_Ring/05_Clone_with_a_Difference.md
+            - Prison Escape: quests/Recover_the_Elfen_Ring/06_Prison_Escape.md
+            - Jolly CI/CD: quests/Recover_the_Elfen_Ring/07_Jolly_CICD.md
+        - Recover the Web Ring:
+            - quests/Recover_the_Web_Ring/index.md
+            - Boria PCAP Mining: quests/Recover_the_Web_Ring/08_Boria_PCAP_Mining.md
+            - Open the Boria Mine Door: quests/Recover_the_Web_Ring/09_Open_the_Boria_Mine_Door.md
+            - Glamtariel's Fountain: quests/Recover_the_Web_Ring/10_Glamtariels_Fountain.md
+        - Recover the Cloud Ring:
+            - quests/Recover_the_Cloud_Ring/index.md
+            - AWS CLI Intro: quests/Recover_the_Cloud_Ring/11_AWS_CLI_Intro.md
+            - Trufflehog Search: quests/Recover_the_Cloud_Ring/12_Trufflehog_Search.md
+            - Exploitation via AWS CLI: quests/Recover_the_Cloud_Ring/13_Exploitation_via_AWS_CLI.md
+        - Recover the Burning Ring of Fire:
+            - quests/Recover_the_Burning_Ring_of_Fire/index.md
+            - Buy a Hat: quests/Recover_the_Burning_Ring_of_Fire/14_Buy_a_Hat.md
+            - Blockchain Divination: quests/Recover_the_Burning_Ring_of_Fire/15_Blockchain_Divination.md
+            - Exploit a Smart Contract: quests/Recover_the_Burning_Ring_of_Fire/16_Exploit_a_Smart_Contract.md
+        - Visit Santa in the Castle:
+            - quests/Visit_Santa_in_the_Castle/index.md
+    - Extras:
+        - Hidden Chests: extras/Hidden_Chests.md
+        - Lembanh Recipie: extras/Recipe.md
+        - Ron Bambidil: extras/Ram_Bambidil.md
+        - Jason: extras/Jason.md
